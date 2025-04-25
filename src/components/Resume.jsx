@@ -16,7 +16,13 @@ const Resume = () => {
   };
 
   return (
-    <div className="projects-header">
+    <div className="projects-header" style={{
+      padding: '3rem 2rem',
+      textAlign: 'center',
+      maxWidth: '800px',
+      margin: '0 auto',
+      minHeight: '60vh'
+    }}>
         <button 
           onClick={handleDownload}
           style={{
