@@ -33,10 +33,6 @@ function Education() {
                         <p style={{ margin: '0.25rem 0', color: '#555' }}>
                             <strong>GPA:</strong> 9.37
                         </p>
-                        <p style={{ margin: '0.25rem 0', color: '#555' }}>
-                            <strong>Achievements:</strong> Merit Scholarship, 2nd and in class
-                            <br />
-                        </p>
                     </div>
                 </li>
                 
