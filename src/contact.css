@@ -1,0 +1,64 @@
+.contact-links {
+    margin-top: 20px;
+  }
+  
+  .contact-item {
+    margin-bottom: 15px;
+  }
+  
+  .contact-item a {
+    color: #ff6347;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .contact-item a:hover {
+    color: #e74c3c;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form button {
+    padding: 12px 24px;
+    background: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background: #e74c3c;
+  }
+
+/* Thank You Message Styling */
+.thank-you-message {
+    background-color: #4CAF50; /* Green background for success */
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    animation: fadeOut 3s forwards;
+  }
+  
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  

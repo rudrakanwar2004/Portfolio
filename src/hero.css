@@ -1,0 +1,83 @@
+/* Hero Section Styling */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #2c3e50, #34495e); /* Dark gradient background */
+    color: white;
+    text-align: center;
+    padding: 0 20px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Container for centering content */
+  .container {
+    z-index: 10;
+  }
+  
+  /* Hero Title */
+  .hero-title {
+    font-size: 3rem;
+    font-weight: 700;
+    animation: fadeInUp 1.5s ease-in-out;
+  }
+  
+  /* Hero Subtitle */
+  .hero-subtitle {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 10px;
+    animation: fadeInUp 1.5s ease-in-out 0.5s;
+  }
+  
+  /* Fade In Up Animation */
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Optional Decorative Circle (for visual interest) */
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    animation: circleAnimation 6s ease-in-out infinite;
+  }
+  
+  @keyframes circleAnimation {
+    0% {
+      transform: translate(-50%, -50%) scale(0.8);
+    }
+    50% {
+      transform: translate(-50%, -50%) scale(1.2);
+    }
+    100% {
+      transform: translate(-50%, -50%) scale(0.8);
+    }
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 768px) {
+    .hero-title {
+      font-size: 2rem;
+    }
+  
+    .hero-subtitle {
+      font-size: 1.2rem;
+    }
+  }
+  
