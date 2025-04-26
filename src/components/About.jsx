@@ -1,8 +1,8 @@
 import profilePic from '../assets/profile.jpg'; // Make sure the image path is correct
 export default function About() {
   return (
-    <section id="about" className="about-me">
-        <h2>About Me</h2>
+    <section id="about" className="projects-header">
+        <h2 className='projects-header'>About Me</h2>
       <div className="container">
         <img src={profilePic} alt="Rudra Kanwar" className="profile-img" />
         <p className="about-description">

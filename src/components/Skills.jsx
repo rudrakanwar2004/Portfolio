@@ -1,5 +1,7 @@
 import React from 'react';
-import '../skills.css'; // Import your CSS file for styling
+import '../skills.css'; // External CSS for styles
+import { motion } from 'framer-motion'; // (optional animation)
+
 export default function Skills() {
   const skills = [
     {
@@ -8,11 +10,11 @@ export default function Skills() {
     },
     {
       category: 'Web Development',
-      skills: ['Django','JavaScript','Flask','React', 'Node.js', 'HTML', 'CSS', 'Bootstrap']
+      skills: ['Django', 'JavaScript', 'Flask', 'React', 'Node.js', 'HTML', 'CSS', 'Bootstrap']
     },
     {
       category: 'Databases',
-      skills: ['MySQL', 'PostgreSQL','MongoDB', 'SQLite']
+      skills: ['MySQL', 'PostgreSQL', 'MongoDB', 'SQLite']
     },
     {
       category: 'Tools & Technologies',
@@ -32,14 +34,21 @@ export default function Skills() {
 
         <div className="skills-list">
           {skills.map((category, index) => (
-            <div className="skills-category" key={index}>
+            <motion.div 
+              className="skills-category" 
+              key={index}
+              whileHover={{ scale: 1.05 }}
+              initial={{ opacity: 0, y: 50 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: index * 0.1 }}
+            >
               <h3>{category.category}</h3>
               <ul>
                 {category.skills.map((skill, skillIndex) => (
                   <li key={skillIndex}>{skill}</li>
                 ))}
               </ul>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>

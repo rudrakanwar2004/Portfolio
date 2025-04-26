@@ -16,7 +16,7 @@ export default function Projects() {
   ];
 
   return (
-    <div className="container">
+    <div className="projects-container">
       <div className="projects-header">
         <h2>Projects</h2>
         <p>Here are some of the projects I've worked on:</p>
