@@ -18,7 +18,7 @@ function Education() {
                         <p className="education-subtitle">Bachelor of Science in Computer Science</p>
                         <p className="education-info"><strong>Graduated:-</strong> May 2025</p>
                         <div className="education-details">
-                            <p className="education-percentage"><strong>GPA:</strong> 9.37</p>
+                            <p className="education-percentage"><strong>CGPA:</strong> 9.4</p>
                         </div>
                     </li>
                     
