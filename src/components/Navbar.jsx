@@ -8,8 +8,6 @@ export default function Navbar() {
           src={icon} 
           alt="Logo" 
           className="logo" 
-          width={100}
-          height={100}
         />
       </a>
       <div className="nav-links">
