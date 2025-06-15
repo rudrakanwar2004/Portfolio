@@ -5,7 +5,7 @@ export default function Hero() {
     <section className="hero">
       <div className="container">
         <h1 className="hero-title">Hi, I'm Rudra Kanwar 👋</h1>
-        <p className="hero-subtitle"> Aspiring Software Developer | Python • GenAI • LLMs And Cloud Enthusiast</p>
+        <p className="hero-subtitle"> Aspiring Software Developer | AI And Cloud Enthusiast</p>
       </div>
     </section>
   )
