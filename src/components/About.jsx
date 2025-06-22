@@ -6,16 +6,11 @@ export default function About() {
       <div className="container">
         <img src={profilePic} alt="Rudra Kanwar" className="profile-img" />
         <p className="about-description">
-          Hi, I'm Rudra Kanwar, a passionate software developer with a strong interest in AI and machine learning. 
-          I specialize in creating dynamic, scalable, and user-friendly applications, focusing on both front-end and back-end development.
-        </p>
-        <p className="about-description">
-          I have experience working with modern technologies such as Python, Django, and SQL/NoSQL databases, React, Node.js etc. 
-          I thrive in environments where innovation and problem-solving are key. I am particularly fascinated by AI-powered applications and their potential to revolutionize industries.
-        </p>
-        <p className="about-description">
-          With a strong foundation in software engineering principles, I continuously look for opportunities to improve my skills, 
-          contribute to open-source projects, and work on challenging problems. My goal is to develop solutions that make a meaningful impact in the world.
+          I’m an aspiring software developer passionate about GenAI, LLMs, and exploring LangChain. 
+          With hands-on experience in Python back-end development, 
+          I’ve built and deployed full-stack applications using Django and integrated state-of-the-art 
+          machine learning frameworks. I love diving into complex problems, writing clean, scalable code 
+          and collaborating with dynamic teams to create innovative, high-quality solutions.        
         </p>
       </div>
     </section>
