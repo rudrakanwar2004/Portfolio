@@ -2,7 +2,7 @@ import React from 'react';
 import { saveAs } from 'file-saver';
 
 const Resume = () => {
-  const resumeUrl = "https://drive.google.com/uc?export=download&id=1mZlgVJUC9bppAqt0DfTWS_NLKmDy5chl";
+  const resumeUrl = "https://drive.google.com/uc?export=download&id=16vuAz3FQWW0QPRD96K6LazP7QV3h_Fmk"
   const resumeName = 'RudraKanwar_Resume.pdf'; // Your name here
 
   const handleDownload = () => {

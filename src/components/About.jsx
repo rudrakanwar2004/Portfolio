@@ -6,11 +6,12 @@ export default function About() {
       <div className="container">
         <img src={profilePic} alt="Rudra Kanwar" className="profile-img" />
         <p className="about-description">
-          I’m an aspiring software developer passionate about GenAI, LLMs, and exploring LangChain. 
-          With hands-on experience in Python back-end development, 
-          I’ve built and deployed full-stack applications using Django and integrated state-of-the-art 
-          machine learning frameworks. I love diving into complex problems, writing clean, scalable code 
-          and collaborating with dynamic teams to create innovative, high-quality solutions.        
+          An aspiring software developer passionate about GenAI, LLMs, and exploring LangChain. 
+          With hands-on experience in back-end with Python. 
+          I have developed and deployed full-stack applications using Python, Django, 
+          and machine learning frameworks. Strong in software development and problem solving. 
+          Interested in contributing to innovative projects and working in dynamic teams 
+          to deliver high-quality solutions.
         </p>
       </div>
     </section>
