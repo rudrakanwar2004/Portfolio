@@ -4,7 +4,7 @@ export default function Projects() {
   const projects = [
     {
       title: "PickFlix",
-      description: "PickFlix is an AI-powered movie recommendation system that suggests movies based on user search and content similarity.",
+      description: "PickFlix is a movie recommendation system that suggests movies based on user search and content similarity.",
       link: "https://github.com/rudrakanwar2004/PickFlix/tree/updated-pickflix",
     },
     {
